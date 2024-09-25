@@ -30,6 +30,14 @@ body {
 		0 0 10px rbga(0,0,0,0.2);
 }
 
+.clock:hover {
+	width: 31rem;
+	height: 31rem;
+	transition: 0.15s all;
+	transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+	border: dotted 2rem skyblue;
+}
+
 .clock-face {
 	position: relative;
 	width: 100%;
